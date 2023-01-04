@@ -4,8 +4,6 @@ Crie a pasta plugins dentro da pasta do cef, na sua pasta do gta e coloque a cef
 
 Para remover o hud coloque as seguintes funções no javascript do seu .html.
 
-<code>
-cef.emit("game:hud:setComponentVisible", "interface", false);
+<code>cef.emit("game:hud:setComponentVisible", "interface", false);</code>
 <p>
-cef.emit("game:hud:setComponentVisible", "radar", false);
-</code>
+<code>cef.emit("game:hud:setComponentVisible", "radar", false);</code>
